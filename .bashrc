@@ -149,3 +149,4 @@ alias cp='cp -iv'
 shopt -s cdspell
 export TX='/home/jim/.texpander'
 PROMPT_COMMAND='echo -ne "\033]0; ${PWD}\007"'
+HISTTIMEFORMAT="%Y/%m/%d %R "

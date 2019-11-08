@@ -1,3 +1,4 @@
+
 #Apply color to man pages.
 #From https://wiki.archlinux.org/index.php/Man_Page#Colored_man_pages
 man() {
@@ -146,15 +147,21 @@ function now () {
 } 
 
 
-#Lsit all Symbolic Links in the current directory
 
-lks() {
-	ls -CFlah --group-directories-first | grep ^l
-}
 
 #Restore control of the grub login screen to the current distribution
 Renew_Grub() {
 		sudo grub-install /dev/sda
 		sudo update-grub
 }
+                                                                                                                          <
+ipif() {                                                      <
+    if grep -P "(([1-9]\d{0,2})\.){3}(?2)" <<< "$1"; then     <
+         curl ipinfo.io/"$1"                                  <
+    else                                                      <
+        ipawk=($(host "$1" | awk '/address/ { print $NF }'))  <
+        curl ipinfo.io/${ipawk[1]}                            <
+    fi                                                        <
+    echo                                                      <
+}                                                               }
 
