@@ -1,0 +1,28 @@
+alias up='sudo apt update && sudo apt dist-upgrade && sudo apt autoremove'
+alias src='source /home/jim/.bashrc'
+alias boot='sudo reboot'
+alias off='sudo shutdown -h now'
+alias lnks='la -lA | grep ^l' # Finds all synlinks in the current directory							
+alias ins='sudo apt install'
+alias diff='colordiff -ys'
+alias ping='ping -c 3 8.8.8.8'
+alias pol='apt policy'
+alias db='sudo updatedb'
+alias inxi='inxi -Fxxxc27'
+alias show='apt show'
+alias edc='sudo nano /etc/X11/app-defaults/Dclock'
+alias path='/home/jim/bin/lpath.sh'
+alias ..='cd ..'
+alias cm='chmod 755'
+alias out='sudo apt purge'
+alias roll='sudo apt update && sudo apt dist-upgrade && sudo apt clean && boot' 
+alias clean='sudo apt autoremove && sudo apt autoclean && sudo apt clean'
+
+alias pf='ps -e | grep $1'
+ 
+alias vb='pkexec virtualbox &'
+alias gh='history|grep'
+alias pubip='dig ANY +short @resolver2.opendns.com myip.opendns.com'
+alias py3='python3'
+alias fuck='sudo !!'
+
