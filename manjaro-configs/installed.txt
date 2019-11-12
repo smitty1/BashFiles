@@ -4,3 +4,5 @@ Installed code-oss from Community
 
 Installed colordiff
 Installed mlocate
+Installed dnsutils
+
