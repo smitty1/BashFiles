@@ -1,0 +1,18 @@
+How to setup the Grub2 bootloader screen on a 4k (3840x2160) screen.
+ 
+Mon 11 Nov 2019 
+ 
+On startup press " C " at the grub screen.
+At the grub> prompt type videoinfo, ( it may be vbeinfo on some machines)
+Write  down one of the  listed available resolutions. Anything between 640x480x32 up to 1024x768x32 work well on my Yoga 720.
+Press esc to get back to the grub screen.
+Boot into the distribution that has control of the grub. In my case it is the Manjaro.
+As root edit /etc/default/grub
+Enter the resolution you chose above for the value of the GRUB_GFXPAYLOAD_LINUX key
+run sudo update-grub and then reboot.
+ Some distributions do not have the update-grub shortcut, in that case run the full command:
+ 	sudo grub-mkconfig -o /boot/grub/grub.cfg
+ 	
+ 	
+ 	
+ 	
