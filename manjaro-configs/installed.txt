@@ -1,0 +1,6 @@
+ed to ex in Manjaro, I installed vim
+Installed terminator as my terminal emulator
+Installed code-oss from Community
+
+Installed colordiff
+Installed mlocate
