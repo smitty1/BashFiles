@@ -170,3 +170,6 @@ ipif() {
     echo                                                      
 }                                                               
 
+net() { xdg-open "https://www.$1"; }
+
+
