@@ -147,6 +147,11 @@ function now () {
 } 
 
 
+#Lsit all Symbolic Links in the current directory
+
+lks() {
+	ls -CFlah --group-directories-first | grep ^l
+}
 
 
 #Restore control of the grub login screen to the current distribution

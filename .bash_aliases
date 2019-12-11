@@ -17,7 +17,7 @@ alias cm='chmod 755'
 alias out='sudo apt purge'
 alias roll='sudo apt update && sudo apt dist-upgrade && sudo apt clean && boot' 
 alias clean='sudo apt autoremove && sudo apt autoclean && sudo apt clean'
-
+alias repolist='grep ^[^#] /etc/apt/sources.list /etc/apt/sources.list.d/*'
 alias pf='ps -e | grep $1'
  
 alias vb='pkexec virtualbox &'
