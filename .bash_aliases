@@ -2,7 +2,6 @@ alias up='sudo apt update && sudo apt dist-upgrade && sudo apt autoremove'
 alias src='source /home/jim/.bashrc'
 alias boot='sudo reboot'
 alias off='sudo shutdown -h now'
-alias lnks='la -lA | grep ^l' # Finds all synlinks in the current directory							
 alias ins='sudo apt install'
 alias diff='colordiff -ys'
 alias ping='ping -c 3 8.8.8.8'
