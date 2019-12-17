@@ -2,7 +2,6 @@ alias up='sudo dnf update'
 alias src='source /home/jimsmith/.bashrc'
 alias boot='sudo reboot'
 alias off='sudo shutdown -h now'
-alias lnks='ls -lA | grep ^l' # Finds all synlinks in the current directory							
 alias ins='sudo dnf install'
 alias diff='colordiff -ys'
 alias ping='ping -c 3 8.8.8.8'
