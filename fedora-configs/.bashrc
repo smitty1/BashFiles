@@ -148,3 +148,4 @@ shopt -s cdspell
 HISTTIMEFORMAT="%Y/%m/%d %R "
 export PATH=~/bin:$PATH
 
+PATH=/home/jimsmith/.local/bin:/home/jimsmith/bin:/home/jimsmith/bin:/home/jimsmith/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
